@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+
+#cuadrado {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:rgba(43, 59, 43, 0.536);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+
+}
